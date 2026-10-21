@@ -344,7 +344,7 @@ function Dashboard() {
           </section>
 
           <section className="chart-card" aria-label="Weekly calorie trends">
-            {entries.length > 0 && (
+            {weeklyEntries.length > 0 && (
               <div className="card-heading">
                 <div>
                   <p className="section-eyebrow">AT A GLANCE</p>
@@ -393,8 +393,8 @@ function Dashboard() {
                     <div className="entry-content">
                       <p className="entry-description">{item.description}</p>
                       <div className="entry-metrics">
-                        <span><i className="metric-dot intake-dot" aria-hidden="true" /> Calories Intake: {item.calorieIntake.toLocaleString()}</span>
-                        <span><i className="metric-dot burned-dot" aria-hidden="true" /> Calories Burned: {item.calorieBurned.toLocaleString()}</span>
+                        <span><i className="metric-dot intake-dot" aria-hidden="true" /> Calories Intake = {item.calorieIntake}</span>
+                        <span><i className="metric-dot burned-dot" aria-hidden="true" /> Calories Burned = {item.calorieBurned}</span>
                       </div>
                       <small>{item.date}</small>
                     </div>
