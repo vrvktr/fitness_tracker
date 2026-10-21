@@ -84,10 +84,10 @@ button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-
 .pie-center strong { font: 800 23px Manrope, sans-serif; }
 .pie-center span { font-size: 9px; color: #aab5c7; white-space: nowrap; }
 .pie-legend { display: flex; justify-content: center; gap: 18px; margin: 3px 0 18px; }
-.pie-legend div { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #bfc7d5; }
+.pie-legend span { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #bfc7d5; }
 .pie-legend strong { color: #f6f7fb; margin-left: 3px; }
 .total-rows { border-top: 1px solid var(--line); padding-top: 10px; }
-.total-rows > div { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 0; font-size: 11px; color: #aeb9ca; }
+.total-rows > p { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 0; margin: 0; font-size: 11px; color: #aeb9ca; }
 .total-rows strong { color: #f5f6fb; font-size: 12px; }
 .total-rows small { font-size: 9px; color: #9ca8bb; font-weight: 500; }
 .total-rows .net-row { border-top: 1px solid var(--line); color: #e0dcff; }
